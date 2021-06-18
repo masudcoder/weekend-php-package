@@ -3,9 +3,12 @@
 namespace Masud\WeekendPackageAnyName\Tests;
 //WeekendPackageAnyName  usually this type of name is not used, as this class is
 //not included in other class so you can give anything in namcespace. but standard is
-//providing what has in composer.json.
+//providing what has in composer.json like "Masud\\WeekendPackage"
 
 use Masud\WeekendPackage\Weekend;
+//Masud\WeekendPackage is mapped to srcCode, so it includes from there.
+
+
 use PHPUnit\Framework\TestCase;
 
 class WeekendTest extends TestCase
