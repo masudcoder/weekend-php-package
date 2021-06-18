@@ -2,7 +2,7 @@
     "name": "masuduzzaman/weekend",
     "type": "library",
     "description": "PHP package to find out weekend",
-    "keywords": ["weekend", "week day", "weekend"],
+    "keywords": ["weekend", "week day"],
     "homepage": "https://github.com/masudcoder/weekend-php-package",
     "license": "MIT",
     "authors": [
