@@ -1,0 +1,28 @@
+{
+    "name": "masuduzzaman/weekend",
+    "type": "library",
+    "description": "PHP package to find out weekend",
+    "keywords": ["weekend", "week day", "weekend"],
+    "homepage": "https://github.com/masudcoder/weekend-php-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masud uz zaman",
+            "email": "zamanmasudcoder@gmail.com",
+            "homepage": "https://github.com/masudcoder",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Masud\\WeekendPackage\\": "srcCode"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1",
+        "friendsofphp/php-cs-fixer": "^2.11"
+    }
+}
