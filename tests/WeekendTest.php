@@ -7,7 +7,8 @@ namespace Masud\WeekendPackageAnyName\Tests;
 
 use Masud\WeekendPackage\Weekend;
 //Masud\WeekendPackage is mapped to srcCode, so it includes from there.
-
+/*if you declare namespace namespace Masud\WeekendPackage then you did not need to write this use code.
+you could directly create object of Weekend class.*/
 
 use PHPUnit\Framework\TestCase;
 
